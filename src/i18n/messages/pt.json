@@ -3,6 +3,19 @@
     "title": "José Arthur | Desenvolvedor Full-Stack",
     "description": "Portfólio pessoal de José Arthur, desenvolvedor full-stack brasileiro, UI designer e entusiasta de IA."
   },
+  "a11y": {
+    "skip": "Pular para o conteúdo principal",
+    "menuLabel": "Abrir opções de acessibilidade",
+    "title": "Acessibilidade",
+    "fontSize": "Tamanho do texto",
+    "decrease": "Diminuir texto",
+    "increase": "Aumentar texto",
+    "reset": "Restaurar padrão",
+    "contrast": "Alto contraste",
+    "readPage": "Ouvir a página",
+    "stopReading": "Parar leitura",
+    "close": "Fechar"
+  },
   "nav": {
     "about": "Sobre",
     "skills": "Skills",

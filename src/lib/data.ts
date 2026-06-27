@@ -81,8 +81,8 @@ export const contactLinks: ContactLink[] = [
   },
   {
     label: "Email",
-    handle: "jose12.ja510@gmail.com",
-    href: "mailto:jose12.ja510@gmail.com",
+    handle: "josearthurribeiro.dev@gmail.com",
+    href: "mailto:josearthurribeiro.dev@gmail.com",
     icon: "Mail"
   }
 ];

@@ -6,6 +6,9 @@ import type {ReactNode} from "react";
 import "@/app/globals.css";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
+import AccessibilityMenu from "@/components/a11y/AccessibilityMenu";
+import SkipToContent from "@/components/a11y/SkipToContent";
+import VLibras from "@/components/a11y/VLibras";
 import ThemeProvider from "@/components/providers/ThemeProvider";
 import {routing, type Locale} from "@/i18n/routing";
 
@@ -59,10 +62,19 @@ export default function LocaleLayout({children, params}: LocaleLayoutProps) {
       <body>
         <ThemeProvider>
           <NextIntlClientProvider locale={params.locale} messages={messages}>
+            {/* Atalho de teclado para pular direto ao conteúdo (acessibilidade) */}
+            <SkipToContent />
             <Header />
-            <main>{children}</main>
+            {/* tabIndex={-1} permite que o skip link mova o foco para cá */}
+            <main id="main-content" tabIndex={-1}>
+              {children}
+            </main>
             <Footer />
+            {/* Menu de acessibilidade (zoom, contraste, leitura em voz alta) */}
+            <AccessibilityMenu />
           </NextIntlClientProvider>
+          {/* Widget de tradução para Libras (atende usuários surdos) */}
+          <VLibras />
         </ThemeProvider>
       </body>
     </html>

@@ -3,6 +3,19 @@
     "title": "José Arthur | Full-Stack Developer",
     "description": "Personal portfolio of José Arthur, Brazilian full-stack developer, UI designer, and AI enthusiast."
   },
+  "a11y": {
+    "skip": "Skip to main content",
+    "menuLabel": "Open accessibility options",
+    "title": "Accessibility",
+    "fontSize": "Text size",
+    "decrease": "Decrease text",
+    "increase": "Increase text",
+    "reset": "Reset to default",
+    "contrast": "High contrast",
+    "readPage": "Listen to the page",
+    "stopReading": "Stop reading",
+    "close": "Close"
+  },
   "nav": {
     "about": "About",
     "skills": "Skills",

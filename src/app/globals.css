@@ -57,6 +57,84 @@ a:focus-visible {
   outline-offset: 3px;
 }
 
+/* ─── ACESSIBILIDADE ─────────────────────────────────────────── */
+
+/* Skip link: oculto até receber foco pelo teclado (Tab) */
+.skip-to-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transform: translateY(-120%);
+  padding: 0.75rem 1.25rem;
+  background: var(--color-accent);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 0 0 0.75rem 0;
+  transition: transform 0.2s ease;
+}
+.skip-to-content:focus {
+  transform: translateY(0);
+  outline: 3px solid #ffffff;
+  outline-offset: -3px;
+}
+
+/* Remove o outline padrão do <main> ao receber foco programático */
+#main-content:focus {
+  outline: none;
+}
+
+/* Modo alto contraste — preto/branco/amarelo, links sublinhados */
+html.a11y-contrast {
+  --color-bg: #000000;
+  --color-surface: #000000;
+  --color-card: #0a0a0a;
+  --color-border: #ffffff;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #f5f5f5;
+  --color-accent: #ffe600;
+  background: #000000 !important;
+}
+html.a11y-contrast body {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+html.a11y-contrast :where(p, span, h1, h2, h3, h4, li, label, button, a, strong) {
+  color: #ffffff !important;
+}
+html.a11y-contrast :where(a) {
+  text-decoration: underline !important;
+}
+/* Fundos das superfícies/cards forçados a preto (cobre variações de opacidade) */
+html.a11y-contrast
+  :where(
+    [class*="bg-white"],
+    [class*="bg-light"],
+    [class*="bg-dark-bg"],
+    [class*="bg-dark-surface"],
+    [class*="bg-dark-card"]
+  ) {
+  background-color: #000000 !important;
+}
+/* Textos com cor de destaque viram amarelo de alto contraste */
+html.a11y-contrast :where([class*="text-[#"]) {
+  color: #ffe600 !important;
+}
+
+/* Respeita a preferência do sistema por menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
 .container-portfolio {
   width: min(100% - 2rem, 1200px);
   margin-inline: auto;
