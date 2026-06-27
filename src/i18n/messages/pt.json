@@ -34,6 +34,7 @@
   "about": {
     "label": "sobre mim",
     "title": "Quem sou eu?",
+    "photoAlt": "José Arthur trabalhando em seu home office",
     "bio": "Tenho 23 anos e sou apaixonado por tecnologia desde sempre. Desenvolvo soluções full-stack com foco em performance, usabilidade e escalabilidade, do back-end robusto até interfaces que as pessoas realmente gostam de usar.\n\nUso IA de forma intensiva no meu workflow para acelerar desde a arquitetura até a entrega final. Em breve estarei em Calgary, Canadá, expandindo horizontes e levando minha stack junto.",
     "stats": {
       "experience": {"value": "3+", "label": "Anos de experiência"},

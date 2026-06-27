@@ -3,6 +3,7 @@
 import {motion, useInView} from "framer-motion";
 import {useTranslations} from "next-intl";
 import {useRef} from "react";
+import Image from "next/image";
 import SectionLabel from "@/components/ui/SectionLabel";
 
 const statKeys = ["experience", "projects", "stacks"] as const;
@@ -36,8 +37,25 @@ export default function AboutSection() {
             {t("bio")}
           </motion.p>
 
-          <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
-            {statKeys.map((key, index) => (
+          <div className="flex flex-col gap-4">
+            {/* Foto da seção Sobre (José Arthur no home office) */}
+            <motion.div
+              initial={{opacity: 0, scale: 0.96}}
+              animate={isInView ? {opacity: 1, scale: 1} : {}}
+              transition={{duration: 0.6, delay: 0.1}}
+              className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-[color:var(--color-border)]"
+            >
+              <Image
+                src="/images/about.png"
+                alt={t("photoAlt")}
+                fill
+                sizes="(max-width: 1024px) 100vw, 360px"
+                className="object-cover"
+              />
+            </motion.div>
+
+            <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
+              {statKeys.map((key, index) => (
               <motion.div
                 key={key}
                 initial={{opacity: 0, x: 20}}
@@ -54,8 +72,9 @@ export default function AboutSection() {
                     {t(`stats.${key}.label`)}
                   </span>
                 </span>
-              </motion.div>
-            ))}
+                </motion.div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

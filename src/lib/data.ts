@@ -69,14 +69,14 @@ export const contactLinks: ContactLink[] = [
   },
   {
     label: "LinkedIn",
-    handle: "José Arthur",
-    href: "https://www.linkedin.com/search/results/all/?keywords=Jos%C3%A9%20Arthur",
+    handle: "in/jose-arthur-pr",
+    href: "https://www.linkedin.com/in/jose-arthur-pr/",
     icon: "Linkedin"
   },
   {
     label: "WhatsApp",
-    handle: "Adicionar número real",
-    href: "https://wa.me/",
+    handle: "+55 (12) 97402-5317",
+    href: "https://wa.me/5512974025317",
     icon: "MessageCircle"
   },
   {

@@ -117,10 +117,11 @@ export default function HeroSection() {
             <div className="absolute inset-8 rounded-full border border-cyan-400/20" />
             <div className="relative h-full overflow-hidden rounded-full border-2 border-accent/45 bg-[color:var(--color-card)] shadow-glow">
               <Image
-                src="/images/avatar.svg"
+                src="/images/avatar.png"
                 alt="José Arthur"
                 fill
                 priority
+                sizes="380px"
                 className="object-cover"
               />
             </div>
