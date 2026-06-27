@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "José Arthur | Full-Stack Developer",
+    "description": "Personal portfolio of José Arthur, Brazilian full-stack developer, UI designer, and AI enthusiast."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, world!",
+    "name": "I'm",
+    "surname": "José Arthur.",
+    "subtitle": "Full-Stack Developer · UI Designer · AI Enthusiast",
+    "bio": "I build digital products with purpose, from idea to deploy.\nPassionate about clean code, intelligent automation, and experiences that truly make sense for their users.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in touch"
+  },
+  "about": {
+    "label": "about me",
+    "title": "Who am I?",
+    "bio": "I'm 23 years old and passionate about technology. I build full-stack solutions focused on performance, usability, and scalability, from robust back ends to interfaces people genuinely enjoy using.\n\nI use AI extensively in my workflow to speed up everything from architecture to final delivery. Soon I'll be in Calgary, Canada, expanding horizons while bringing my stack along.",
+    "stats": {
+      "experience": {"value": "3+", "label": "Years of experience"},
+      "projects": {"value": "10+", "label": "Delivered projects"},
+      "stacks": {"value": "5+", "label": "Mastered stacks"}
+    }
+  },
+  "skills": {
+    "label": "tech stack",
+    "title": "My Skills"
+  },
+  "projects": {
+    "label": "projects",
+    "title": "My Projects",
+    "comingSoon": "Coming soon",
+    "viewProject": "View Project",
+    "items": {
+      "aetherscroll": {
+        "type": "Web App",
+        "name": "AetherScroll",
+        "desc": "Immersive reading and navigation platform with a fluid, minimalist experience for digital content consumption."
+      },
+      "aetherlink": {
+        "type": "Web App",
+        "name": "AetherLink",
+        "desc": "Smart link shortener and manager with integrated analytics and advanced URL customization."
+      },
+      "sinfonia": {
+        "type": "Institutional Website",
+        "name": "Sinfonia da Alma",
+        "desc": "Mentorship website with a headless CMS, blog, and dynamic landing pages for personal development journeys."
+      },
+      "a01": {
+        "type": "WhatsApp Bot",
+        "name": "Prototype A01",
+        "desc": "Experimental WhatsApp assistant designed for conversational automation, useful replies, and smart flows."
+      }
+    }
+  },
+  "contact": {
+    "label": "contact",
+    "title": "Let's talk?",
+    "subtitle": "Open to freelance projects, collaborations, and new opportunities."
+  },
+  "footer": {
+    "made": "Made with",
+    "by": "by José Arthur"
+  }
+}

@@ -1,0 +1,626 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\arthur-portifolio\.npmrc
+5 silly config load:file:C:\Users\User\.npmrc
+6 silly config load:file:C:\Users\User\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund" "--progress" "false"
+9 verbose logfile logs-max:10 dir:C:\arthur-portifolio\.npm-cache\_logs\2026-06-27T00_40_45_523Z-
+10 verbose logfile C:\arthur-portifolio\.npm-cache\_logs\2026-06-27T00_40_45_523Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest next@^14.2.23
+15 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/next 592ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/next set size:30876914 disposed:false
+18 silly fetch manifest @opentelemetry/api@^1.1.0
+19 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+20 http cache https://registry.npmjs.org/@opentelemetry%2fapi 33ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:272967 disposed:false
+22 silly fetch manifest @playwright/test@^1.41.2
+23 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+24 http cache https://registry.npmjs.org/@playwright%2ftest 36ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:9267766 disposed:false
+26 silly fetch manifest react@^18.3.1
+27 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+28 http cache https://registry.npmjs.org/react 25ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/react set size:6742652 disposed:false
+30 silly fetch manifest react-dom@^18.3.1
+31 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/react-dom 273ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9018326 disposed:false
+34 silly fetch manifest sass@^1.3.0
+35 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+36 http cache https://registry.npmjs.org/sass 8ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/sass set size:730445 disposed:false
+38 silly placeDep ROOT next@14.2.35 REPLACE for: arthur-portfolio@1.0.0 want: ^14.2.23
+39 silly fetch manifest @next/swc-darwin-x64@14.2.33
+40 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+41 silly fetch manifest @next/swc-darwin-arm64@14.2.33
+42 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+43 silly fetch manifest @next/swc-linux-x64-gnu@14.2.33
+44 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+45 silly fetch manifest @next/swc-linux-x64-musl@14.2.33
+46 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+47 silly fetch manifest @next/swc-linux-arm64-gnu@14.2.33
+48 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+49 silly fetch manifest @next/swc-win32-ia32-msvc@14.2.33
+50 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc cache-miss
+51 silly fetch manifest @next/swc-linux-arm64-musl@14.2.33
+52 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+53 http cache https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc 69ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc set size:3201393 disposed:false
+55 silly fetch manifest @next/swc-win32-arm64-msvc@14.2.33
+56 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+57 http cache https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 119ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:5416720 disposed:false
+59 http cache https://registry.npmjs.org/@next%2fswc-darwin-x64 169ms (cache hit)
+60 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:5308154 disposed:false
+61 http cache https://registry.npmjs.org/@next%2fswc-linux-x64-musl 212ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:5172646 disposed:false
+63 http cache https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 259ms (cache hit)
+64 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:5238804 disposed:false
+65 http cache https://registry.npmjs.org/@next%2fswc-darwin-arm64 308ms (cache hit)
+66 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:5366064 disposed:false
+67 http cache https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 344ms (cache hit)
+68 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:5220473 disposed:false
+69 http cache https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 331ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:5202061 disposed:false
+71 silly fetch manifest fsevents@~2.3.2
+72 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+73 http cache https://registry.npmjs.org/fsevents 8ms (cache hit)
+74 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+75 silly placeDep ROOT fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+76 silly placeDep ROOT @next/swc-darwin-arm64@14.2.33 OK for: next@14.2.35 want: 14.2.33
+77 silly placeDep ROOT @next/swc-darwin-x64@14.2.33 OK for: next@14.2.35 want: 14.2.33
+78 silly placeDep ROOT @next/swc-linux-arm64-gnu@14.2.33 OK for: next@14.2.35 want: 14.2.33
+79 silly placeDep ROOT @next/swc-linux-arm64-musl@14.2.33 OK for: next@14.2.35 want: 14.2.33
+80 silly placeDep ROOT @next/swc-linux-x64-gnu@14.2.33 OK for: next@14.2.35 want: 14.2.33
+81 silly placeDep ROOT @next/swc-linux-x64-musl@14.2.33 OK for: next@14.2.35 want: 14.2.33
+82 silly placeDep ROOT @next/swc-win32-arm64-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+83 silly placeDep ROOT @next/swc-win32-ia32-msvc@14.2.33 OK for: next@14.2.35 want: 14.2.33
+84 silly fetch manifest @unrs/resolver-binding-darwin-arm64@1.12.2
+85 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 cache-miss
+86 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 9ms (cache hit)
+87 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 set size:63676 disposed:false
+88 silly fetch manifest @unrs/resolver-binding-android-arm64@1.12.2
+89 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 cache-miss
+90 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 10ms (cache hit)
+91 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 set size:17616 disposed:false
+92 silly fetch manifest @unrs/resolver-binding-win32-arm64-msvc@1.12.2
+93 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc cache-miss
+94 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc 8ms (cache hit)
+95 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc set size:64613 disposed:false
+96 silly fetch manifest @unrs/resolver-binding-linux-arm64-gnu@1.12.2
+97 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu cache-miss
+98 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu 6ms (cache hit)
+99 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu set size:65047 disposed:false
+100 silly fetch manifest @unrs/resolver-binding-linux-arm64-musl@1.12.2
+101 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl cache-miss
+102 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl 4ms (cache hit)
+103 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl set size:65257 disposed:false
+104 silly fetch manifest @unrs/resolver-binding-openharmony-arm64@1.12.2
+105 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 cache-miss
+106 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 6ms (cache hit)
+107 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 set size:7350 disposed:false
+108 silly fetch manifest @unrs/resolver-binding-android-arm-eabi@1.12.2
+109 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi cache-miss
+110 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi 6ms (cache hit)
+111 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi set size:17797 disposed:false
+112 silly fetch manifest @unrs/resolver-binding-linux-arm-gnueabihf@1.12.2
+113 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf cache-miss
+114 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf 6ms (cache hit)
+115 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf set size:65279 disposed:false
+116 silly fetch manifest @unrs/resolver-binding-linux-arm-musleabihf@1.12.2
+117 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf cache-miss
+118 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf 6ms (cache hit)
+119 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf set size:65533 disposed:false
+120 silly fetch manifest @unrs/resolver-binding-win32-ia32-msvc@1.12.2
+121 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc cache-miss
+122 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc 6ms (cache hit)
+123 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc set size:64317 disposed:false
+124 silly fetch manifest @unrs/resolver-binding-linux-loong64-gnu@1.12.2
+125 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu cache-miss
+126 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu 4ms (cache hit)
+127 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu set size:4107 disposed:false
+128 silly fetch manifest @unrs/resolver-binding-linux-loong64-musl@1.12.2
+129 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl cache-miss
+130 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl 6ms (cache hit)
+131 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl set size:4124 disposed:false
+132 silly fetch manifest @unrs/resolver-binding-linux-ppc64-gnu@1.12.2
+133 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu cache-miss
+134 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu 7ms (cache hit)
+135 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu set size:65057 disposed:false
+136 silly fetch manifest @unrs/resolver-binding-linux-riscv64-gnu@1.12.2
+137 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu cache-miss
+138 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu 6ms (cache hit)
+139 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu set size:56387 disposed:false
+140 silly fetch manifest @unrs/resolver-binding-linux-riscv64-musl@1.12.2
+141 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl cache-miss
+142 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl 9ms (cache hit)
+143 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl set size:45710 disposed:false
+144 silly fetch manifest @unrs/resolver-binding-linux-s390x-gnu@1.12.2
+145 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu cache-miss
+146 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu 6ms (cache hit)
+147 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu set size:65047 disposed:false
+148 silly fetch manifest @unrs/resolver-binding-wasm32-wasi@1.12.2
+149 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi cache-miss
+150 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi 6ms (cache hit)
+151 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi set size:67358 disposed:false
+152 silly fetch manifest @unrs/resolver-binding-darwin-x64@1.12.2
+153 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 cache-miss
+154 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 6ms (cache hit)
+155 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 set size:63092 disposed:false
+156 silly fetch manifest @unrs/resolver-binding-freebsd-x64@1.12.2
+157 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 cache-miss
+158 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 7ms (cache hit)
+159 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 set size:63388 disposed:false
+160 silly fetch manifest @unrs/resolver-binding-linux-x64-gnu@1.12.2
+161 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu cache-miss
+162 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu 12ms (cache hit)
+163 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu set size:64469 disposed:false
+164 silly fetch manifest @unrs/resolver-binding-linux-x64-musl@1.12.2
+165 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl cache-miss
+166 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl 8ms (cache hit)
+167 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl set size:64685 disposed:false
+168 silly placeDep ROOT @unrs/resolver-binding-android-arm-eabi@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+169 silly placeDep ROOT @unrs/resolver-binding-android-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+170 silly placeDep ROOT @unrs/resolver-binding-darwin-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+171 silly placeDep ROOT @unrs/resolver-binding-darwin-x64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+172 silly placeDep ROOT @unrs/resolver-binding-freebsd-x64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+173 silly placeDep ROOT @unrs/resolver-binding-linux-arm-gnueabihf@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+174 silly placeDep ROOT @unrs/resolver-binding-linux-arm-musleabihf@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+175 silly placeDep ROOT @unrs/resolver-binding-linux-arm64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+176 silly placeDep ROOT @unrs/resolver-binding-linux-arm64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+177 silly placeDep ROOT @unrs/resolver-binding-linux-loong64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+178 silly placeDep ROOT @unrs/resolver-binding-linux-loong64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+179 silly placeDep ROOT @unrs/resolver-binding-linux-ppc64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+180 silly placeDep ROOT @unrs/resolver-binding-linux-riscv64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+181 silly placeDep ROOT @unrs/resolver-binding-linux-riscv64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+182 silly placeDep ROOT @unrs/resolver-binding-linux-s390x-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+183 silly placeDep ROOT @unrs/resolver-binding-linux-x64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+184 silly placeDep ROOT @unrs/resolver-binding-linux-x64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+185 silly placeDep ROOT @unrs/resolver-binding-openharmony-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+186 silly placeDep ROOT @unrs/resolver-binding-wasm32-wasi@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+187 silly placeDep ROOT @unrs/resolver-binding-win32-arm64-msvc@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+188 silly placeDep ROOT @unrs/resolver-binding-win32-ia32-msvc@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+189 silly fetch manifest @napi-rs/wasm-runtime@^1.1.4
+190 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fwasm-runtime cache-miss
+191 silly fetch manifest @emnapi/core@1.10.0
+192 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
+193 silly fetch manifest @emnapi/runtime@1.10.0
+194 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+195 http cache https://registry.npmjs.org/@emnapi%2fcore 9ms (cache hit)
+196 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore set size:114822 disposed:false
+197 http cache https://registry.npmjs.org/@napi-rs%2fwasm-runtime 11ms (cache hit)
+198 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fwasm-runtime set size:76486 disposed:false
+199 http cache https://registry.npmjs.org/@emnapi%2fruntime 14ms (cache hit)
+200 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:116352 disposed:false
+201 silly placeDep ROOT @emnapi/core@1.10.0 OK for: @unrs/resolver-binding-wasm32-wasi@1.12.2 want: 1.10.0
+202 silly placeDep ROOT @emnapi/runtime@1.10.0 OK for: @unrs/resolver-binding-wasm32-wasi@1.12.2 want: 1.10.0
+203 silly placeDep ROOT @napi-rs/wasm-runtime@1.1.6 OK for: @unrs/resolver-binding-wasm32-wasi@1.12.2 want: ^1.1.4
+204 silly fetch manifest @emnapi/wasi-threads@1.2.1
+205 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads cache-miss
+206 silly fetch manifest @tybys/wasm-util@^0.10.3
+207 silly packumentCache full:https://registry.npmjs.org/@tybys%2fwasm-util cache-miss
+208 http cache https://registry.npmjs.org/@emnapi%2fwasi-threads 7ms (cache hit)
+209 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads set size:28580 disposed:false
+210 http cache https://registry.npmjs.org/@tybys%2fwasm-util 7ms (cache hit)
+211 silly packumentCache full:https://registry.npmjs.org/@tybys%2fwasm-util set size:60108 disposed:false
+212 silly placeDep ROOT @emnapi/wasi-threads@1.2.1 OK for: @emnapi/core@1.10.0 want: 1.2.1
+213 silly placeDep ROOT @tybys/wasm-util@0.10.3 OK for: @napi-rs/wasm-runtime@1.1.6 want: ^0.10.3
+214 silly reify mark retired [ 'C:\\arthur-portifolio\\node_modules\\next' ]
+215 silly reify mark retired [
+215 silly reify   'C:\\arthur-portifolio\\node_modules\\acorn',
+215 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\acorn',
+215 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\acorn.cmd',
+215 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\acorn.ps1'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   'C:\\arthur-portifolio\\node_modules\\autoprefixer',
+216 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\autoprefixer',
+216 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\autoprefixer.cmd',
+216 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\autoprefixer.ps1'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   'C:\\arthur-portifolio\\node_modules\\baseline-browser-mapping',
+217 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\baseline-browser-mapping',
+217 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+217 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+217 silly reify ]
+218 silly reify mark retired [
+218 silly reify   'C:\\arthur-portifolio\\node_modules\\browserslist',
+218 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\browserslist',
+218 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\browserslist.cmd',
+218 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\browserslist.ps1'
+218 silly reify ]
+219 silly reify mark retired [
+219 silly reify   'C:\\arthur-portifolio\\node_modules\\cssesc',
+219 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\cssesc',
+219 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\cssesc.cmd',
+219 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\cssesc.ps1'
+219 silly reify ]
+220 silly reify mark retired [
+220 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint',
+220 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\eslint',
+220 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\eslint.cmd',
+220 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\eslint.ps1'
+220 silly reify ]
+221 silly reify mark retired [
+221 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\semver',
+221 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver',
+221 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.cmd',
+221 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.ps1'
+221 silly reify ]
+222 silly reify mark retired [
+222 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\semver',
+222 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver',
+222 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.cmd',
+222 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.ps1'
+222 silly reify ]
+223 silly reify mark retired [
+223 silly reify   'C:\\arthur-portifolio\\node_modules\\glob',
+223 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\glob',
+223 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\glob.cmd',
+223 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\glob.ps1'
+223 silly reify ]
+224 silly reify mark retired [
+224 silly reify   'C:\\arthur-portifolio\\node_modules\\jiti',
+224 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\jiti',
+224 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\jiti.cmd',
+224 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\jiti.ps1'
+224 silly reify ]
+225 silly reify mark retired [
+225 silly reify   'C:\\arthur-portifolio\\node_modules\\js-yaml',
+225 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\js-yaml',
+225 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\js-yaml.cmd',
+225 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\js-yaml.ps1'
+225 silly reify ]
+226 silly reify mark retired [
+226 silly reify   'C:\\arthur-portifolio\\node_modules\\json5',
+226 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\json5',
+226 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\json5.cmd',
+226 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\json5.ps1'
+226 silly reify ]
+227 silly reify mark retired [
+227 silly reify   'C:\\arthur-portifolio\\node_modules\\loose-envify',
+227 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\loose-envify',
+227 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\loose-envify.cmd',
+227 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\loose-envify.ps1'
+227 silly reify ]
+228 silly reify mark retired [
+228 silly reify   'C:\\arthur-portifolio\\node_modules\\nanoid',
+228 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\nanoid',
+228 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\nanoid.cmd',
+228 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\nanoid.ps1'
+228 silly reify ]
+229 silly reify mark retired [
+229 silly reify   'C:\\arthur-portifolio\\node_modules\\napi-postinstall',
+229 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\napi-postinstall',
+229 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\napi-postinstall.cmd',
+229 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\napi-postinstall.ps1'
+229 silly reify ]
+230 silly reify mark retired [
+230 silly reify   'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\semver',
+230 silly reify   'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\semver',
+230 silly reify   'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.cmd',
+230 silly reify   'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.ps1'
+230 silly reify ]
+231 silly reify mark retired [
+231 silly reify   'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\resolve',
+231 silly reify   'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\resolve',
+231 silly reify   'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\resolve.cmd',
+231 silly reify   'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\resolve.ps1'
+231 silly reify ]
+232 silly reify mark retired [
+232 silly reify   'C:\\arthur-portifolio\\node_modules\\resolve',
+232 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\resolve',
+232 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\resolve.cmd',
+232 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\resolve.ps1'
+232 silly reify ]
+233 silly reify mark retired [
+233 silly reify   'C:\\arthur-portifolio\\node_modules\\rimraf',
+233 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\rimraf',
+233 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\rimraf.cmd',
+233 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\rimraf.ps1'
+233 silly reify ]
+234 silly reify mark retired [
+234 silly reify   'C:\\arthur-portifolio\\node_modules\\semver',
+234 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\semver',
+234 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\semver.cmd',
+234 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\semver.ps1'
+234 silly reify ]
+235 silly reify mark retired [
+235 silly reify   'C:\\arthur-portifolio\\node_modules\\sucrase',
+235 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase',
+235 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase.cmd',
+235 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase.ps1',
+235 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase-node',
+235 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase-node.cmd',
+235 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase-node.ps1'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   'C:\\arthur-portifolio\\node_modules\\tailwindcss',
+236 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwind',
+236 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwind.cmd',
+236 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwind.ps1',
+236 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwindcss',
+236 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwindcss.cmd',
+236 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwindcss.ps1'
+236 silly reify ]
+237 silly reify mark retired [
+237 silly reify   'C:\\arthur-portifolio\\node_modules\\typescript',
+237 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsc',
+237 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsc.cmd',
+237 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsc.ps1',
+237 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsserver',
+237 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsserver.cmd',
+237 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsserver.ps1'
+237 silly reify ]
+238 silly reify mark retired [
+238 silly reify   'C:\\arthur-portifolio\\node_modules\\update-browserslist-db',
+238 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\update-browserslist-db',
+238 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\update-browserslist-db.cmd',
+238 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\update-browserslist-db.ps1'
+238 silly reify ]
+239 silly reify mark retired [
+239 silly reify   'C:\\arthur-portifolio\\node_modules\\which',
+239 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\node-which',
+239 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\node-which.cmd',
+239 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\node-which.ps1'
+239 silly reify ]
+240 silly reify moves {
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\next': 'C:\\arthur-portifolio\\node_modules\\.next-KaV0Fssq',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\acorn': 'C:\\arthur-portifolio\\node_modules\\.acorn-s2bArvcK',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\acorn': 'C:\\arthur-portifolio\\node_modules\\.bin\\.acorn-RYbjnkNH',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\acorn.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.acorn.cmd-1juasowf',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\acorn.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.acorn.ps1-28PTcZcb',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\autoprefixer': 'C:\\arthur-portifolio\\node_modules\\.autoprefixer-hU3z1n6Z',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\autoprefixer': 'C:\\arthur-portifolio\\node_modules\\.bin\\.autoprefixer-B53Zd5iD',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\autoprefixer.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.autoprefixer.cmd-Gqetm8un',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\autoprefixer.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.autoprefixer.ps1-efaZnQbP',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\baseline-browser-mapping': 'C:\\arthur-portifolio\\node_modules\\.baseline-browser-mapping-kQ51CwZT',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\arthur-portifolio\\node_modules\\.bin\\.baseline-browser-mapping-Rh7qeCaa',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.baseline-browser-mapping.cmd-4u2PLcfw',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.baseline-browser-mapping.ps1-yOZCVIf4',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\browserslist': 'C:\\arthur-portifolio\\node_modules\\.browserslist-jRINGA0n',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\browserslist': 'C:\\arthur-portifolio\\node_modules\\.bin\\.browserslist-H23Ggs5d',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\browserslist.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.browserslist.cmd-4ziGuq1N',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\browserslist.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.browserslist.ps1-qQN7D7EE',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\cssesc': 'C:\\arthur-portifolio\\node_modules\\.cssesc-auAFqtlG',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\cssesc': 'C:\\arthur-portifolio\\node_modules\\.bin\\.cssesc-sVrkPACh',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\cssesc.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.cssesc.cmd-EMXxbJn7',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\cssesc.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.cssesc.ps1-b2xTaEXE',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint': 'C:\\arthur-portifolio\\node_modules\\.eslint-S7wGVj58',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\eslint': 'C:\\arthur-portifolio\\node_modules\\.bin\\.eslint-XMwQ97KQ',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\eslint.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.eslint.cmd-Y6sjhp3P',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\eslint.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.eslint.ps1-RkFhyfeB',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\semver': 'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.semver-biwxnhGm',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver': 'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver-CuFXYU30',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.cmd': 'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver.cmd-AisRLymH',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.ps1': 'C:\\arthur-portifolio\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver.ps1-Ni4SiLpA',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\semver': 'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.semver-perHdgD7',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver': 'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver-bxTcpfij',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.cmd': 'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver.cmd-RTDS17E1',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.ps1': 'C:\\arthur-portifolio\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver.ps1-bJgFhs9K',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\glob': 'C:\\arthur-portifolio\\node_modules\\.glob-YNBvNJkv',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\glob': 'C:\\arthur-portifolio\\node_modules\\.bin\\.glob-f6glFA14',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\glob.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.glob.cmd-9iEl07ng',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\glob.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.glob.ps1-CoassNMd',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\jiti': 'C:\\arthur-portifolio\\node_modules\\.jiti-LwJTzW1V',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\jiti': 'C:\\arthur-portifolio\\node_modules\\.bin\\.jiti-mQ8S1uWI',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\jiti.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.jiti.cmd-sdYUmMyY',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\jiti.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.jiti.ps1-XxDtxMdj',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\js-yaml': 'C:\\arthur-portifolio\\node_modules\\.js-yaml-SXnkIhKM',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\js-yaml': 'C:\\arthur-portifolio\\node_modules\\.bin\\.js-yaml-isFQwPOu',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\js-yaml.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.js-yaml.cmd-teRTRqwF',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\js-yaml.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.js-yaml.ps1-CCe6K8hh',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\json5': 'C:\\arthur-portifolio\\node_modules\\.json5-0ca74PvT',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\json5': 'C:\\arthur-portifolio\\node_modules\\.bin\\.json5-ChEe9JsB',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\json5.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.json5.cmd-TPSZD1RJ',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\json5.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.json5.ps1-KTCMSAdH',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\loose-envify': 'C:\\arthur-portifolio\\node_modules\\.loose-envify-XmBWHNYx',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\loose-envify': 'C:\\arthur-portifolio\\node_modules\\.bin\\.loose-envify-c8FgKtK5',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\loose-envify.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.loose-envify.cmd-rb0R8QTp',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\loose-envify.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.loose-envify.ps1-Bg6SI1Hz',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\nanoid': 'C:\\arthur-portifolio\\node_modules\\.nanoid-ltxBOEGm',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\nanoid': 'C:\\arthur-portifolio\\node_modules\\.bin\\.nanoid-K9XBXOv2',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\nanoid.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.nanoid.cmd-zDgFJyMY',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\nanoid.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.nanoid.ps1-E3YF7Kol',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\napi-postinstall': 'C:\\arthur-portifolio\\node_modules\\.napi-postinstall-TkZ5gzZY',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\napi-postinstall': 'C:\\arthur-portifolio\\node_modules\\.bin\\.napi-postinstall-Arf38pJu',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\napi-postinstall.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.napi-postinstall.cmd-DkJ68flL',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\napi-postinstall.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.napi-postinstall.ps1-gdXZfLhr',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\semver': 'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.semver-1fKpndpX',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\semver': 'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver-q3czdbVf',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.cmd': 'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver.cmd-cmStAvR3',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.ps1': 'C:\\arthur-portifolio\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver.ps1-Vb7ockIT',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\resolve': 'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.resolve-TzmkotVk',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\resolve': 'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\.resolve-Jz9s3UIE',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\resolve.cmd': 'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\.resolve.cmd-ZJTt0B16',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\resolve.ps1': 'C:\\arthur-portifolio\\node_modules\\postcss-import\\node_modules\\.bin\\.resolve.ps1-iygl71Zk',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\resolve': 'C:\\arthur-portifolio\\node_modules\\.resolve-jIkkuFjx',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\resolve': 'C:\\arthur-portifolio\\node_modules\\.bin\\.resolve-x6ea13IX',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\resolve.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.resolve.cmd-vqvl1IuW',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\resolve.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.resolve.ps1-vGNyjUYX',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\rimraf': 'C:\\arthur-portifolio\\node_modules\\.rimraf-pffEm1tX',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\rimraf': 'C:\\arthur-portifolio\\node_modules\\.bin\\.rimraf-kqsIsjWq',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\rimraf.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.rimraf.cmd-IAsHZOdA',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\rimraf.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.rimraf.ps1-PxEs1iox',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\semver': 'C:\\arthur-portifolio\\node_modules\\.semver-SnXCrVpq',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\semver': 'C:\\arthur-portifolio\\node_modules\\.bin\\.semver-pCFJbcZ2',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\semver.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.semver.cmd-Wt1k2ogp',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\semver.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.semver.ps1-AoyoeOhc',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\sucrase': 'C:\\arthur-portifolio\\node_modules\\.sucrase-AatsAAa0',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase': 'C:\\arthur-portifolio\\node_modules\\.bin\\.sucrase-WlF8NsWD',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.sucrase.cmd-yU33NG8S',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.sucrase.ps1-2gi9oSEY',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase-node': 'C:\\arthur-portifolio\\node_modules\\.bin\\.sucrase-node-WErm7OJf',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase-node.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.sucrase-node.cmd-vw1Txt9E',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\sucrase-node.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.sucrase-node.ps1-egZ42xxE',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\tailwindcss': 'C:\\arthur-portifolio\\node_modules\\.tailwindcss-uUAZ4fp0',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwind': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tailwind-XYPw7usc',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwind.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tailwind.cmd-ELZH4CU5',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwind.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tailwind.ps1-2uyv2SBm',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwindcss': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tailwindcss-Lcy9Hx56',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tailwindcss.cmd-DKA8p6iM',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tailwindcss.ps1-ZAwqhovI',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\typescript': 'C:\\arthur-portifolio\\node_modules\\.typescript-SqcOeUEr',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsc': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tsc-L2oyzHyO',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsc.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tsc.cmd-NZOyBxlB',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsc.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tsc.ps1-qtqvoKZO',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsserver': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tsserver-N0SKtm5L',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsserver.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tsserver.cmd-2LroNIpe',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\tsserver.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.tsserver.ps1-y9jnw9aN',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\update-browserslist-db': 'C:\\arthur-portifolio\\node_modules\\.update-browserslist-db-QCWTBeTl',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\update-browserslist-db': 'C:\\arthur-portifolio\\node_modules\\.bin\\.update-browserslist-db-LNrSSNl7',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.update-browserslist-db.cmd-ag7kpb6B',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.update-browserslist-db.ps1-07R4tOXM',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\which': 'C:\\arthur-portifolio\\node_modules\\.which-9UpAezCx',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\node-which': 'C:\\arthur-portifolio\\node_modules\\.bin\\.node-which-CyvW7qUo',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\node-which.cmd': 'C:\\arthur-portifolio\\node_modules\\.bin\\.node-which.cmd-k0qMEhJ9',
+240 silly reify   'C:\\arthur-portifolio\\node_modules\\.bin\\node-which.ps1': 'C:\\arthur-portifolio\\node_modules\\.bin\\.node-which.ps1-IvOMmaUr'
+240 silly reify }
+241 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+242 silly packumentCache corgi:https://registry.npmjs.org/typescript cache-miss
+243 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db cache-miss
+244 silly packumentCache corgi:https://registry.npmjs.org/sucrase cache-miss
+245 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+246 silly packumentCache corgi:https://registry.npmjs.org/rimraf cache-miss
+247 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss cache-miss
+248 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+249 silly packumentCache corgi:https://registry.npmjs.org/napi-postinstall cache-miss
+250 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+251 silly packumentCache corgi:https://registry.npmjs.org/json5 cache-miss
+252 silly packumentCache corgi:https://registry.npmjs.org/js-yaml cache-miss
+253 silly packumentCache corgi:https://registry.npmjs.org/loose-envify cache-miss
+254 silly packumentCache corgi:https://registry.npmjs.org/jiti cache-miss
+255 silly packumentCache corgi:https://registry.npmjs.org/glob cache-miss
+256 silly packumentCache corgi:https://registry.npmjs.org/eslint cache-miss
+257 silly packumentCache corgi:https://registry.npmjs.org/cssesc cache-miss
+258 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer cache-miss
+259 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+260 silly packumentCache corgi:https://registry.npmjs.org/browserslist cache-miss
+261 silly packumentCache corgi:https://registry.npmjs.org/acorn cache-miss
+262 http cache next@https://registry.npmjs.org/next/-/next-14.2.35.tgz 0ms (cache hit)
+263 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+264 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+265 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+266 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+267 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+268 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-14.2.35.tgz. Extracting by manifest.
+269 http cache https://registry.npmjs.org/glob 185ms (cache hit)
+270 silly packumentCache corgi:https://registry.npmjs.org/glob set size:199194 disposed:false
+271 http cache https://registry.npmjs.org/glob/-/glob-10.3.10.tgz 77ms (cache hit)
+272 http fetch GET 200 https://registry.npmjs.org/resolve 291ms (cache miss)
+273 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+274 http cache https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.7.tgz 18ms (cache hit)
+275 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 500ms (cache miss)
+276 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db set size:undefined disposed:false
+277 http fetch GET 200 https://registry.npmjs.org/napi-postinstall 519ms (cache miss)
+278 silly packumentCache corgi:https://registry.npmjs.org/napi-postinstall set size:undefined disposed:false
+279 http fetch GET 200 https://registry.npmjs.org/which 527ms (cache miss)
+280 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+281 http fetch GET 200 https://registry.npmjs.org/loose-envify 526ms (cache miss)
+282 silly packumentCache corgi:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+283 http fetch GET 200 https://registry.npmjs.org/cssesc 527ms (cache miss)
+284 silly packumentCache corgi:https://registry.npmjs.org/cssesc set size:undefined disposed:false
+285 http fetch GET 200 https://registry.npmjs.org/sucrase 533ms (cache miss)
+286 silly packumentCache corgi:https://registry.npmjs.org/sucrase set size:undefined disposed:false
+287 http cache https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 44ms (cache hit)
+288 http fetch GET 200 https://registry.npmjs.org/js-yaml 550ms (cache miss)
+289 silly packumentCache corgi:https://registry.npmjs.org/js-yaml set size:undefined disposed:false
+290 http cache https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 46ms (cache hit)
+291 http cache https://registry.npmjs.org/which/-/which-2.0.2.tgz 49ms (cache hit)
+292 http cache https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 63ms (cache hit)
+293 http cache https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 64ms (cache hit)
+294 http cache https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz 62ms (cache hit)
+295 http fetch GET 200 https://registry.npmjs.org/resolve 598ms (cache miss)
+296 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+297 http fetch GET 200 https://registry.npmjs.org/semver 610ms (cache miss)
+298 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+299 http cache https://registry.npmjs.org/js-yaml/-/js-yaml-4.3.0.tgz 85ms (cache hit)
+300 http cache https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz 67ms (cache hit)
+301 http cache https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 65ms (cache hit)
+302 http fetch GET 200 https://registry.npmjs.org/json5 771ms (cache miss)
+303 silly packumentCache corgi:https://registry.npmjs.org/json5 set size:undefined disposed:false
+304 http fetch GET 200 https://registry.npmjs.org/autoprefixer 788ms (cache miss)
+305 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer set size:undefined disposed:false
+306 http cache https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 49ms (cache hit)
+307 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 825ms (cache miss)
+308 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping set size:undefined disposed:false
+309 http fetch GET 200 https://registry.npmjs.org/semver 866ms (cache miss)
+310 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+311 http cache https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.2.tgz 80ms (cache hit)
+312 http fetch GET 200 https://registry.npmjs.org/semver 877ms (cache miss)
+313 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+314 http fetch GET 200 https://registry.npmjs.org/resolve 890ms (cache miss)
+315 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+316 http cache https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.40.tgz 75ms (cache hit)
+317 http fetch GET 200 https://registry.npmjs.org/eslint 911ms (cache miss)
+318 silly packumentCache corgi:https://registry.npmjs.org/eslint set size:undefined disposed:false
+319 http cache https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 66ms (cache hit)
+320 http cache https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 82ms (cache hit)
+321 http cache https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz 89ms (cache hit)
+322 http fetch GET 200 https://registry.npmjs.org/nanoid 988ms (cache miss)
+323 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+324 http cache https://registry.npmjs.org/eslint/-/eslint-8.57.1.tgz 109ms (cache hit)
+325 http fetch GET 200 https://registry.npmjs.org/jiti 1046ms (cache miss)
+326 silly packumentCache corgi:https://registry.npmjs.org/jiti set size:undefined disposed:false
+327 http cache https://registry.npmjs.org/nanoid/-/nanoid-3.3.15.tgz 94ms (cache hit)
+328 http fetch GET 200 https://registry.npmjs.org/rimraf 1120ms (cache miss)
+329 silly packumentCache corgi:https://registry.npmjs.org/rimraf set size:undefined disposed:false
+330 http cache https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 72ms (cache hit)
+331 http fetch GET 200 https://registry.npmjs.org/browserslist 1156ms (cache miss)
+332 silly packumentCache corgi:https://registry.npmjs.org/browserslist set size:undefined disposed:false
+333 http cache https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 55ms (cache hit)
+334 http cache https://registry.npmjs.org/browserslist/-/browserslist-4.28.4.tgz 39ms (cache hit)
+335 http fetch GET 200 https://registry.npmjs.org/semver 1277ms (cache miss)
+336 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+337 http cache https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 34ms (cache hit)
+338 http fetch GET 200 https://registry.npmjs.org/acorn 1358ms (cache miss)
+339 silly packumentCache corgi:https://registry.npmjs.org/acorn set size:undefined disposed:false
+340 http cache https://registry.npmjs.org/acorn/-/acorn-8.17.0.tgz 23ms (cache hit)
+341 http fetch GET 200 https://registry.npmjs.org/tailwindcss 1834ms (cache miss)
+342 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+343 http cache https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 83ms (cache hit)
+344 http fetch GET 200 https://registry.npmjs.org/typescript 2216ms (cache miss)
+345 silly packumentCache corgi:https://registry.npmjs.org/typescript set size:undefined disposed:false
+346 http cache https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 161ms (cache hit)
+347 http fetch GET 200 https://registry.npmjs.org/next/-/next-14.2.35.tgz 41326ms (cache miss)
+348 silly CHANGE node_modules/which
+349 silly CHANGE node_modules/update-browserslist-db
+350 silly CHANGE node_modules/typescript
+351 silly CHANGE node_modules/tailwindcss
+352 silly CHANGE node_modules/tailwindcss/node_modules/resolve
+353 silly CHANGE node_modules/sucrase
+354 silly CHANGE node_modules/semver
+355 silly CHANGE node_modules/rimraf
+356 silly CHANGE node_modules/resolve
+357 silly CHANGE node_modules/postcss-import/node_modules/resolve
+358 silly CHANGE node_modules/node-exports-info/node_modules/semver
+359 silly CHANGE node_modules/napi-postinstall
+360 silly CHANGE node_modules/nanoid
+361 silly CHANGE node_modules/loose-envify
+362 silly CHANGE node_modules/json5
+363 silly CHANGE node_modules/js-yaml
+364 silly CHANGE node_modules/jiti
+365 silly CHANGE node_modules/glob
+366 silly CHANGE node_modules/eslint-plugin-react/node_modules/semver
+367 silly CHANGE node_modules/eslint-plugin-import/node_modules/semver
+368 silly CHANGE node_modules/eslint
+369 silly CHANGE node_modules/cssesc
+370 silly CHANGE node_modules/browserslist
+371 silly CHANGE node_modules/baseline-browser-mapping
+372 silly CHANGE node_modules/autoprefixer
+373 silly CHANGE node_modules/acorn
+374 silly CHANGE node_modules/next
+375 verbose cwd C:\arthur-portifolio
+376 verbose os Windows_NT 10.0.26200
+377 verbose node v24.16.0
+378 verbose npm  v11.13.0
+379 verbose exit 0
+380 info ok

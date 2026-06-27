@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f8f9fc;
+  --color-surface: #ffffff;
+  --color-card: #f1f5f9;
+  --color-border: #dbe3ef;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+  --color-accent: #4f46e5;
+  --header-bg: rgba(248, 249, 252, 0.82);
+}
+
+.dark {
+  --color-bg: #0a0a0f;
+  --color-surface: #13131a;
+  --color-card: #1a1a25;
+  --color-border: #2a2a35;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-accent: #6366f1;
+  --header-bg: rgba(10, 10, 15, 0.82);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.container-portfolio {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+}
+
+.section-padding {
+  padding-block: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-block: 7rem;
+  }
+
+  .container-portfolio {
+    width: min(100% - 4rem, 1200px);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}

@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "José Arthur | Desarrollador Full-Stack",
+    "description": "Portafolio personal de José Arthur, desarrollador full-stack brasileño, diseñador UI y entusiasta de IA."
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "skills": "Skills",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "¡Hola, mundo!",
+    "name": "Soy",
+    "surname": "José Arthur.",
+    "subtitle": "Desarrollador Full-Stack · Diseñador UI · Entusiasta de IA",
+    "bio": "Construyo productos digitales con propósito, de la idea al deploy.\nApasionado por el código limpio, la automatización inteligente y las experiencias que tienen sentido para quienes las usan.",
+    "ctaProjects": "Ver Proyectos",
+    "ctaContact": "Contactarme"
+  },
+  "about": {
+    "label": "sobre mí",
+    "title": "¿Quién soy?",
+    "bio": "Tengo 23 años y soy apasionado por la tecnología. Desarrollo soluciones full-stack enfocadas en rendimiento, usabilidad y escalabilidad, desde back ends robustos hasta interfaces que las personas realmente disfrutan usar.\n\nUso IA intensivamente en mi workflow para acelerar desde la arquitectura hasta la entrega final. Pronto estaré en Calgary, Canadá, expandiendo horizontes con mi stack a cuestas.",
+    "stats": {
+      "experience": {"value": "3+", "label": "Años de experiencia"},
+      "projects": {"value": "10+", "label": "Proyectos entregados"},
+      "stacks": {"value": "5+", "label": "Stacks dominadas"}
+    }
+  },
+  "skills": {
+    "label": "tech stack",
+    "title": "Mis Skills"
+  },
+  "projects": {
+    "label": "proyectos",
+    "title": "Mis Proyectos",
+    "comingSoon": "Próximamente",
+    "viewProject": "Ver Proyecto",
+    "items": {
+      "aetherscroll": {
+        "type": "Web App",
+        "name": "AetherScroll",
+        "desc": "Plataforma de lectura y navegación inmersiva con una experiencia fluida y minimalista para contenido digital."
+      },
+      "aetherlink": {
+        "type": "Web App",
+        "name": "AetherLink",
+        "desc": "Acortador y gestor inteligente de enlaces con analytics integrado y personalización avanzada de URLs."
+      },
+      "sinfonia": {
+        "type": "Sitio Institucional",
+        "name": "Sinfonia da Alma",
+        "desc": "Sitio de mentoría con CMS headless, blog y landing pages dinámicas para jornadas de desarrollo personal."
+      },
+      "a01": {
+        "type": "Bot WhatsApp",
+        "name": "Prototipo A01",
+        "desc": "Asistente experimental para WhatsApp, pensado para automatización conversacional, respuestas útiles y flujos inteligentes."
+      }
+    }
+  },
+  "contact": {
+    "label": "contacto",
+    "title": "¿Hablamos?",
+    "subtitle": "Abierto a proyectos freelance, colaboraciones y nuevas oportunidades."
+  },
+  "footer": {
+    "made": "Hecho con",
+    "by": "por José Arthur"
+  }
+}

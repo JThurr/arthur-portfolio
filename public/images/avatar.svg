@@ -1,0 +1,11 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="720" fill="#13131A"/>
+  <path d="M120 536C162 444 246 388 360 388C474 388 558 444 600 536V720H120V536Z" fill="#6366F1"/>
+  <circle cx="360" cy="264" r="132" fill="#F1F5F9"/>
+  <path d="M210 238C224 154 283 104 366 104C450 104 506 151 516 236C475 203 426 186 367 186C306 186 254 203 210 238Z" fill="#0A0A0F"/>
+  <circle cx="313" cy="268" r="14" fill="#0A0A0F"/>
+  <circle cx="407" cy="268" r="14" fill="#0A0A0F"/>
+  <path d="M310 326C342 352 379 352 411 326" stroke="#0A0A0F" stroke-width="18" stroke-linecap="round"/>
+  <rect x="214" y="494" width="292" height="92" rx="22" fill="#0A0A0F"/>
+  <text x="360" y="556" text-anchor="middle" fill="#F1F5F9" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">JOSÉ ARTHUR</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#13131A"/>
+  <rect x="70" y="54" width="660" height="342" rx="24" fill="#F8F9FC"/>
+  <rect x="112" y="96" width="160" height="26" rx="8" fill="#28B57D"/>
+  <rect x="112" y="156" width="292" height="26" rx="13" fill="#0F172A"/>
+  <rect x="112" y="204" width="398" height="12" rx="6" fill="#64748B"/>
+  <rect x="112" y="232" width="360" height="12" rx="6" fill="#64748B" fill-opacity="0.68"/>
+  <rect x="112" y="288" width="132" height="42" rx="12" fill="#6366F1"/>
+  <rect x="530" y="118" width="126" height="190" rx="63" fill="#DBE3EF"/>
+  <path d="M550 246C570 202 609 174 656 164" stroke="#28B57D" stroke-width="16" stroke-linecap="round"/>
+  <path d="M552 282C589 270 625 246 660 210" stroke="#6366F1" stroke-width="16" stroke-linecap="round"/>
+  <text x="112" y="372" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Sinfonia da Alma</text>
+</svg>
