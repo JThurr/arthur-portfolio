@@ -35,11 +35,72 @@
     "label": "about me",
     "title": "Who am I?",
     "photoAlt": "José Arthur working at his home office",
-    "bio": "I'm 23 years old and passionate about technology. I build full-stack solutions focused on performance, usability, and scalability, from robust back ends to interfaces people genuinely enjoy using.\n\nI use AI extensively in my workflow to speed up everything from architecture to final delivery. Soon I'll be in Calgary, Canada, expanding horizons while bringing my stack along.",
+    "bio": "I'm 23 years old, and technology has always been the medium I chose to build something that matters. I'm a full-stack developer and I create products end to end — from robust back ends to interfaces people genuinely enjoy using — with a focus on performance, usability, and clean code.\n\nMore than writing code, what drives me is turning knowledge into systems that create real value for people. I love building things that help, that teach, and that leave everything a little better than it was. AI is a heavy part of my workflow (I use Claude every day) to speed up from architecture to delivery, without ever compromising on quality.\n\nI'm always building: AetherScroll, AetherLink, Prototype A01, and other ideas are born from this urge to experiment and solve real problems. Soon I'll be in Calgary, Canada, expanding horizons while bringing my stack — and my plans — along with me.",
     "stats": {
       "experience": {"value": "3+", "label": "Years of experience"},
       "projects": {"value": "10+", "label": "Delivered projects"},
       "stacks": {"value": "5+", "label": "Mastered stacks"}
+    },
+    "mantra": {
+      "label": "my mindset",
+      "words": {
+        "discipline": "Discipline",
+        "focus": "Focus",
+        "consistency": "Consistency",
+        "execution": "Execution"
+      },
+      "text": "To me, this means delivering flawless results that genuinely add value to people — not just to me. Discipline gives me routine and helps me take care of myself; focus keeps me on the right goals; consistency stops me from dropping what I've already started; and execution is what turns an idea into reality. Because theory without execution changes nothing.",
+      "quote": "Turning knowledge into systems that generate value, freedom, and legacy.",
+      "signature": "Architect of ecosystems · Conductor of aether · Forger of legacies."
+    },
+    "interests": {
+      "label": "beyond the code",
+      "title": "Curiosities & hobbies",
+      "items": {
+        "games": {
+          "title": "Games",
+          "desc": "Fascinated by the world of games, especially single-player ones and the stories only they can tell."
+        },
+        "tabletop": {
+          "title": "Board & card games",
+          "desc": "A passion of its own: strategy, a full table, and good company around it."
+        },
+        "reading": {
+          "title": "Reading",
+          "desc": "Books, manga, and comics — the right fuel for imagination in my free time."
+        },
+        "movement": {
+          "title": "Walking & cycling",
+          "desc": "I wander with no destination to reconnect with myself and reflect along the way."
+        },
+        "animals": {
+          "title": "Animal world",
+          "desc": "Curious by nature: I love learning about sharks, crocodiles, snakes, lions, and the like."
+        },
+        "writing": {
+          "title": "Writing",
+          "desc": "I'm always writing — especially the fantasy stories of my own universe."
+        }
+      }
+    },
+    "vibes": {
+      "lovesTitle": "Wins me over",
+      "avoidsTitle": "Not really my thing",
+      "loves": [
+        "Time with family and friends",
+        "Cute animals (my weak spot 🐾)",
+        "Movies, series, and anime to recharge",
+        "Good music playing while I code",
+        "Watching my projects come to life just as I imagined",
+        "\"Wanna play that game?\""
+      ],
+      "avoids": [
+        "Pessimism that only sees problems",
+        "Dry code, with no hierarchy or comments",
+        "Mockery that puts others down",
+        "Arrogance over status or money",
+        "Borrowed opinions and prejudice without even trying first"
+      ]
     }
   },
   "skills": {

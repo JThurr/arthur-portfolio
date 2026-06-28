@@ -35,11 +35,72 @@
     "label": "sobre mim",
     "title": "Quem sou eu?",
     "photoAlt": "José Arthur trabalhando em seu home office",
-    "bio": "Tenho 23 anos e sou apaixonado por tecnologia desde sempre. Desenvolvo soluções full-stack com foco em performance, usabilidade e escalabilidade, do back-end robusto até interfaces que as pessoas realmente gostam de usar.\n\nUso IA de forma intensiva no meu workflow para acelerar desde a arquitetura até a entrega final. Em breve estarei em Calgary, Canadá, expandindo horizontes e levando minha stack junto.",
+    "bio": "Tenho 23 anos e, desde sempre, a tecnologia é o meio que escolhi para construir algo que importa. Sou desenvolvedor full-stack e crio produtos de ponta a ponta — do back-end robusto às interfaces que as pessoas realmente gostam de usar — com foco em performance, usabilidade e código limpo.\n\nMais do que escrever código, o que me move é transformar conhecimento em sistemas que geram valor real para as pessoas. Gosto de criar coisas que ajudam, que ensinam e que deixam tudo um pouco melhor do que estava. A IA faz parte intensa do meu workflow (uso Claude no dia a dia) para acelerar da arquitetura à entrega, sem abrir mão de qualidade.\n\nEstou sempre construindo: AetherScroll, AetherLink, o Protótipo A01 e outras ideias nascem dessa vontade de experimentar e resolver problemas de verdade. Em breve estarei em Calgary, no Canadá, expandindo horizontes e levando minha stack — e meus planos — junto comigo.",
     "stats": {
       "experience": {"value": "3+", "label": "Anos de experiência"},
       "projects": {"value": "10+", "label": "Projetos entregues"},
       "stacks": {"value": "5+", "label": "Stacks dominadas"}
+    },
+    "mantra": {
+      "label": "minha mentalidade",
+      "words": {
+        "discipline": "Disciplina",
+        "focus": "Foco",
+        "consistency": "Constância",
+        "execution": "Execução"
+      },
+      "text": "Pra mim, isso significa entregar resultados impecáveis e que de fato agregam às pessoas — não só a mim. A disciplina me dá rotina e me ajuda a cuidar de mim; o foco me mantém nos objetivos certos; a constância me impede de largar no meio o que já comecei; e a execução é o que transforma ideia em realidade. Porque teoria sem execução não muda nada.",
+      "quote": "Transformar conhecimento em sistemas que geram valor, liberdade e legado.",
+      "signature": "Arquiteto de ecossistemas · Condutor de éter · Forjador de legados."
+    },
+    "interests": {
+      "label": "fora do código",
+      "title": "Curiosidades & hobbies",
+      "items": {
+        "games": {
+          "title": "Games",
+          "desc": "Fascinado pelo mundo dos games, em especial pelos single-player e pelas histórias que só eles sabem contar."
+        },
+        "tabletop": {
+          "title": "Tabuleiro & cartas",
+          "desc": "Uma paixão à parte: estratégia, mesa cheia e boa companhia em volta."
+        },
+        "reading": {
+          "title": "Leitura",
+          "desc": "Livros, mangás e HQs — combustível certo pra imaginação no tempo livre."
+        },
+        "movement": {
+          "title": "Caminhada & pedal",
+          "desc": "Ando sem rumo pra me reconectar comigo mesmo e refletir pelo caminho."
+        },
+        "animals": {
+          "title": "Mundo animal",
+          "desc": "Curioso por natureza: adoro descobrir sobre tubarões, crocodilos, cobras, leões e companhia."
+        },
+        "writing": {
+          "title": "Escrita",
+          "desc": "Escrevo sempre — em especial as histórias de fantasia do meu próprio universo."
+        }
+      }
+    },
+    "vibes": {
+      "lovesTitle": "Me conquista",
+      "avoidsTitle": "Não é muito pra mim",
+      "loves": [
+        "Tempo com família e amigos",
+        "Animais fofinhos (meu ponto fraco 🐾)",
+        "Filmes, séries e animes pra recarregar",
+        "Uma boa música tocando enquanto programo",
+        "Ver meus projetos ganhando vida do jeito que imaginei",
+        "\"Bora jogar aquele jogo?\""
+      ],
+      "avoids": [
+        "Pessimismo que só enxerga problema",
+        "Código seco, sem hierarquia nem comentário",
+        "Deboche que diminui os outros",
+        "Arrogância por status ou grana",
+        "Opinião emprestada e preconceito sem nem experimentar"
+      ]
     }
   },
   "skills": {
