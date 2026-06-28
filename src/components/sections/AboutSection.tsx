@@ -102,7 +102,7 @@ export default function AboutSection() {
               className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-2xl border border-[color:var(--color-border)] lg:order-1 lg:mx-0"
             >
               <Image
-                src="/images/explore.png"
+                src="/images/about2.webp"
                 alt={t("photoAltTwo")}
                 fill
                 sizes="(max-width: 1024px) 100vw, 460px"
