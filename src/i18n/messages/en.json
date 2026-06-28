@@ -35,11 +35,13 @@
     "label": "about me",
     "title": "Who am I?",
     "photoAlt": "José Arthur working at his home office",
-    "bio": "I'm 23 years old, and technology has always been the medium I chose to build something that matters. I'm a full-stack developer and I create products end to end — from robust back ends to interfaces people genuinely enjoy using — with a focus on performance, usability, and clean code.\n\nMore than writing code, what drives me is turning knowledge into systems that create real value for people. I love building things that help, that teach, and that leave everything a little better than it was. AI is a heavy part of my workflow (I use Claude every day) to speed up from architecture to delivery, without ever compromising on quality.\n\nI'm always building: AetherScroll, AetherLink, Prototype A01, and other ideas are born from this urge to experiment and solve real problems. Soon I'll be in Calgary, Canada, expanding horizons while bringing my stack — and my plans — along with me.",
+    "photoAltTwo": "José Arthur looking out over a mountain landscape",
+    "bioOne": "Early on, I saw technology as more than code: a way to build things that last. I'm a full-stack developer and I like to think about the whole product — from the structure holding it up underneath to the interface someone touches and feels makes sense. Performance, clarity, and care at every layer.\n\nWhat moves me is turning an idea into something useful: systems that help, that teach, and that make the path simpler for whoever comes next. I build with no rush to show off and every rush to deliver well — and AI walks alongside me, speeding things up without ever outsourcing the judgment.",
+    "bioTwo": "Away from the screen, I carry a dream that's simple and huge at once: to live well and see the world. I like to move, to change scenery, and to let new places shift the way I think and create.\n\nTo me, growing means staying curious, staying building, and staying open to what I haven't lived yet. Every experience becomes repertoire — and repertoire, in the end, becomes a better product. I take my stack wherever I go and let the world teach me the rest.",
     "stats": {
-      "experience": {"value": "3+", "label": "Years of experience"},
-      "projects": {"value": "10+", "label": "Delivered projects"},
-      "stacks": {"value": "5+", "label": "Mastered stacks"}
+      "experience": {"value": "2+", "label": "Years of experience"},
+      "projects": {"value": "5+", "label": "Delivered projects"},
+      "tech": {"value": "10+", "label": "Technologies"}
     },
     "mantra": {
       "label": "my mindset",

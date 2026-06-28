@@ -35,11 +35,13 @@
     "label": "sobre mí",
     "title": "¿Quién soy?",
     "photoAlt": "José Arthur trabajando en su home office",
-    "bio": "Tengo 23 años y, desde siempre, la tecnología es el medio que elegí para construir algo que importa. Soy desarrollador full-stack y creo productos de punta a punta — desde back ends robustos hasta interfaces que las personas realmente disfrutan usar — con foco en rendimiento, usabilidad y código limpio.\n\nMás que escribir código, lo que me mueve es transformar conocimiento en sistemas que generan valor real para las personas. Me gusta crear cosas que ayudan, que enseñan y que dejan todo un poco mejor de lo que estaba. La IA es una parte intensa de mi workflow (uso Claude a diario) para acelerar desde la arquitectura hasta la entrega, sin renunciar a la calidad.\n\nSiempre estoy construyendo: AetherScroll, AetherLink, el Prototipo A01 y otras ideas nacen de estas ganas de experimentar y resolver problemas de verdad. Pronto estaré en Calgary, Canadá, expandiendo horizontes y llevando mi stack — y mis planes — conmigo.",
+    "photoAltTwo": "José Arthur contemplando el paisaje de una montaña",
+    "bioOne": "Desde temprano vi en la tecnología algo más que código: una forma de construir cosas que perduran. Soy desarrollador full-stack y me gusta pensar el producto entero — desde la estructura que lo sostiene por debajo hasta la interfaz que la persona toca y siente que tiene sentido. Rendimiento, claridad y cuidado en cada capa.\n\nLo que me mueve es transformar una idea en algo útil: sistemas que ayudan, que enseñan y que dejan el camino más simple para quien viene después. Construyo sin prisa por aparecer y con toda la prisa por entregar bien — y la IA camina a mi lado, acelerando sin nunca tercerizar el criterio.",
+    "bioTwo": "Lejos de la pantalla, llevo un sueño simple y enorme a la vez: vivir bien y conocer el mundo. Me gusta moverme, cambiar de paisaje y dejar que los lugares nuevos cambien un poco mi forma de pensar y crear.\n\nPara mí, evolucionar es seguir curioso, seguir construyendo y seguir abierto a lo que aún no viví. Cada experiencia se vuelve repertorio — y el repertorio, al final, se vuelve un mejor producto. Llevo mi stack a donde vaya y dejo que el mundo me enseñe el resto.",
     "stats": {
-      "experience": {"value": "3+", "label": "Años de experiencia"},
-      "projects": {"value": "10+", "label": "Proyectos entregados"},
-      "stacks": {"value": "5+", "label": "Stacks dominadas"}
+      "experience": {"value": "2+", "label": "Años de experiencia"},
+      "projects": {"value": "5+", "label": "Proyectos entregados"},
+      "tech": {"value": "10+", "label": "Tecnologías"}
     },
     "mantra": {
       "label": "mi mentalidad",
